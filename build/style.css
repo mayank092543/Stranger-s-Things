@@ -1,0 +1,369 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin: 20px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    font-size: 60px;
+    font-family: 'Frijole', cursive;
+    color: black;
+}
+
+.link {
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Quantico', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF
+
+}
+
+#Logo {
+    height: 120px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+}
+
+#logoutPost{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.delete-btn {
+    color: red;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+#title-Addpost {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#post-title{
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(230, 24, 24);
+
+}
+
+.search-Bar {
+    height: 30px;
+    width: 350px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 150px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.addlink {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a.addlink:hover{
+    color: yellow;
+    
+}
+
+.sendMessage {
+    width: 150px;
+    height: 30px;
+    font-weight: bolder;
+}
+
+.delete-btn {
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+}
+
+#profile-Title {
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(230, 24, 24);
+}
+
+#message {
+    border: 2px solid black;
+    width: 400px;
+    text-align: center;
+}
+
+.newPost {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.checkBox {
+    height: 20px;
+    width: 20px;
+}
+
+.deliver {
+    font-size: 25px;
+}
+
+.submitPost-Btn {
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    margin: 10px;
+    text-align: center;
+}
+
+#login {
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(230, 24, 24);
+}
+
+.userName, 
+.password {
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.password {
+    margin: 10px;
+}
+
+.login-Btn {
+    height: 30px;
+    width: 70px;
+    font-weight: bolder;
+}
+
+#register {
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(230, 24, 24);
+}
+
+.signupUsername,
+.signupPassword,
+.signupconfPassword {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.signupPassword {
+    margin: 10px;
+}
+
+.submit-Btn {
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 912px) {
+    .title {
+        font-size: 50px;
+    }
+
+    .link {
+        margin: 10px;
+        font-size: 25px;
+    }
+
+    .search-Bar {
+        height: 50px;
+    }
+
+    .sendMessage {
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    .delete-btn {
+        width: 120px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .userName, 
+    .password {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 25px;
+}
+
+    .password {
+    margin: 20px;
+}
+
+    .login-Btn {
+    height: 50px;
+    width: 100px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+    .signupUsername,
+    .signupPassword,
+    .signupconfPassword {
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+}
+
+    .signupPassword {
+    margin: 15px;
+}
+
+    .submit-Btn {
+    height: 50px;
+    width: 130px;
+    font-size: 25px; 
+}
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 40px;
+    }
+    
+    .link {
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    #Logo {
+        height: 100px;
+        width: 250px;
+        margin-bottom: 10px; 
+    }
+
+    .search-Bar {
+        height: 40px;
+        width: 350px;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border: 2px solid black;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .title {
+        font-size: 40px;
+        margin-left: 100px;
+    }
+
+    #header {
+        display: block;
+    }
+
+    #navbar {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    #Logo {
+        height: 100px;
+        width: 250px;
+        margin-left: 60px;
+    }
+
+    .search-Bar {
+        height: 30px;
+        width: 150px;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border: 2px solid black;
+        text-align: center;
+    }
+
+    .sendMessage {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    
+    .delete-btn {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    #message {
+        border: 2px solid black;
+        width: 380px;
+        text-align: center;
+    }
+
+    .userName, 
+    .password {
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.password {
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.login-Btn {
+    height: 35px;
+    width: 100px;
+    font-weight: bolder;
+}
+
+.signupUsername,
+.signupPassword,
+.signupconfPassword {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.signupPassword {
+    margin: 1px;
+}
+
+.submit-Btn {
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+}
+
+
+    
